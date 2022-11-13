@@ -6,7 +6,6 @@ Console.Write("Введите количество столбцов 1-й мат�
 int n = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите количество столбцов 2-й матрицы: ");
 int p = Convert.ToInt32(Console.ReadLine());
-
 int[,] firstMartrix = new int[m, n];
 
 void FillArray(int[,] array)
