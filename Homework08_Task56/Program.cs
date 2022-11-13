@@ -54,4 +54,4 @@ for (int i = 1; i < array.GetLength(0); i++)
         minRowSum = i;
     }
 }
-Console.WriteLine($"\n{minRowSum + 1} - строкa с наименьшей суммой ({rowSum}) элементов ");
+Console.WriteLine($"Строкa с наименьшей суммой ({rowSum}) элементов - {minRowSum + 1} ");
