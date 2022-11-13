@@ -49,6 +49,6 @@ void SortedRows(int[,] array)
 }
 FillArray(array);
 PrintArray(array);
-Console.WriteLine($"\nОтсортированный массив: ");
+Console.WriteLine("Отсортированный массив: ");
 SortedRows(array);
 PrintArray(array);
